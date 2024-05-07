@@ -1,0 +1,12 @@
+Macchine
+
+id - INT - PRIMARY_KEY - NOTNULL - AUTO_INCREMENT - UNIQUE
+marca - VARCHAR(30) - NOTNULL
+modello - VARCHAR(100) - NOTNULL
+tipo - VARCHAR(30) - NULL
+motore - VARCHAR(50) - NOTNULL
+anno immatricolazione - YEAR - NOTNULL
+cilindrata - SMALLINT - NULL
+cambio - VARCHAR(30) - NULL
+prezzo - DECIMAL(9, 2) - NULL
+condizione - VARCHAR(255) - NOTNULL
